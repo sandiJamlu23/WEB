@@ -7,12 +7,20 @@ body{
 }
 header{
     background-color: rgb(2, 2, 2);
+    *background-image: url("images/p1.png");
     padding: 20px;
     text-align: left;
     
 }
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    position: relative;
+}
 header .logo a{
-    background-image: url("images/pngegg.png");
+    background-image: url("images/logo.png");
     background-size: 90px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -23,19 +31,24 @@ header .logo a{
     top: -10px;
 }
 
-
-
-section{
+.features{
     background-color: azure;
     color: #343434;
     padding: 20px;
     display: flex;
     flex-direction:row;
 }
-div{
-    background-color: #c91f1f;
-     width: 100px;
-     margin: auto;
+.features  figure{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+}
+.features figure img{
+    border: solid white;
+    width: 201px;
+    height: 140px;
+    border-radius: 3%;
+    box-shadow: gray 0 0 10px;
 }
 ul{
     margin: 0;
